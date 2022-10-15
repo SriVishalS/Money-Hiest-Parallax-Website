@@ -1,0 +1,69 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+}
+
+.pimg1 {
+  background-image: url(./images/2331346.webp);
+  min-height: 100%;
+}
+
+.pimg2 {
+  background-image: url(./images/money-heist-part-4-preview-netflix.webp);
+  min-height: 600px;
+}
+
+.pimg3 {
+  background-image: url(./images/wp6581315.jpg);
+  min-height: 700px;
+}
+
+.pimg1,
+.pimg2,
+.pimg3 {
+  position: relative;
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+  background-attachment: fixed;
+}
+
+.textbg {
+  font-family: "Alkalami", serif;
+  font-size: 3rem;
+  opacity: 1;
+  color: rgb(255, 255, 255);
+}
+
+.ptext {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.section {
+  padding: 50px 70px;
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+}
+
+.section-light {
+  background-color: white;
+  color: black;
+}
+
+.section-dark {
+  background-color: black;
+  color: white;
+}
+.section-danger {
+  background-color: red;
+  color: white;
+  margin-top: 30px;
+}
+::-webkit-scrollbar{
+    display: none;
+}
